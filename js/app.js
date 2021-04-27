@@ -2,7 +2,6 @@ document.getElementById('generate').onclick = generateImage;
 
 function generateImage() {
     var container = document.getElementById('image_text');
-    var name = document.getElementById('name').value;
     var imgPrev = document.getElementById('img_prev');
     var desc = document.getElementById('desc');
     var canvas = document.createElement('canvas');
@@ -25,3 +24,5 @@ function generateImage() {
     
     document.getElementById('generate').remove();
 }
+
+
